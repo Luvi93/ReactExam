@@ -1,0 +1,26 @@
+.modal-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: white;
+  border-radius: 5px;
+  padding: 1rem;
+  width: 250px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.modal-dropdown-link {
+  display: block;
+  padding: 0.5rem 0;
+  text-decoration: none;
+  color: #484848;
+}
+
+.modal-dropdown-link:hover {
+  color: #000;
+  background-color: #f7f7f7;
+}
+
+.modal-dropdown {
+  z-index: 1000;
+}
